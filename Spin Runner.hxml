@@ -1,0 +1,3 @@
+-lib nme
+-cp src
+-main Main
