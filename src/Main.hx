@@ -16,12 +16,11 @@ class Main extends Sprite
 	public function new() 
 	{
 		super();
+		
 		g = new Game();
 		g.y = 550;
 		g.scaleX = g.scaleY = 4;
 		addChild(g);
-		// Assets:
-		// openfl.Assets.getBitmapData("img/assetname.jpg");
 		
 		addEventListener(Event.ENTER_FRAME, update);
 		
